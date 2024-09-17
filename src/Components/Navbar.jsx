@@ -5,7 +5,7 @@ import logout from '../assets/logout.png'
 
 const Navbar = () => {
   return (
-    <div className='bg-[#121212] w-screen flex gap-2 items-center rounded'>
+    <div className='bg-[#121212] w-screen flex items-center rounded'>
         <img className='w-10 ml-5 cursor-pointer' src={logo} alt="" />
         <h1 className='font-bold cursor-pointer' >Safe wallet</h1>
         <h1 className='absolute cursor-pointer right-28' >Log out</h1> 

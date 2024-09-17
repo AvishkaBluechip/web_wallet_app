@@ -7,8 +7,8 @@ import  settings from '../assets/settings.png'
 
 const Slidebar = () => {
   return (
-    <div className='bg-[#121212] w-[20%] block rounded  '>
-        <div className='bg-[#e2e8f0] text-black w-[50%] h-[7%] rounded-md m-7 ml-14 cursor-pointer flex align-baseline mt-14'>
+    <div className='bg-[#121212] w-[20%] block rounded m-2 '>
+        <div className='bg-[#e2e8f0] text-black w-[50%] h-[7%] rounded-md m-7 ml-14 cursor-pointer flex align-baseline mt-20'>
             <img className='w-5 m-3 ml-5' src={dashboard} alt="" />
             <h1 className='text-center pt-2.5 font-bold'>Dashbord</h1>
         </div>       
